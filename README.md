@@ -2,6 +2,14 @@
 
 Una aplicación Streamlit para analizar datos de rendimiento en ciclismo con métricas avanzadas.
 
+## Metodología
+
+Esta aplicación está basada en la metodología descrita en el artículo académico:
+
+*"Methodological approach to assess cardiovascular dynamics in elite cyclists"* por Manuel Mateo-March, Alejandro Javaloyes, Iván Peña-González y Manuel Moya-Ramón.
+
+DOI: [https://doi.org/10.1016/j.mex.2025.103515](https://doi.org/10.1016/j.mex.2025.103515)
+
 ## Características
 
 - **Critical Power (CP)**: Cálculo de potencia crítica y capacidad de trabajo anaeróbico (W')

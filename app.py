@@ -66,6 +66,12 @@ st.markdown("""
 - Relative Heart Rate Increase (rHRI) analysis
 - Power quartile distribution
 - 15-minute interval breakdown
+
+---
+
+*Basado en la metodología:* "Methodological approach to assess cardiovascular dynamics in elite cyclists" por Manuel Mateo-March, Alejandro Javaloyes, Iván Peña-González y Manuel Moya-Ramón.
+
+[https://doi.org/10.1016/j.mex.2025.103515](https://doi.org/10.1016/j.mex.2025.103515)
 """)
 
 # Sidebar for file upload
