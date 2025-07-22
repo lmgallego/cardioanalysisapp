@@ -160,11 +160,11 @@ def main():
             with tabs[2]:
                 st.header("Quartile Analysis")
                 st.markdown("""
-                **Power Quartiles:**
-                - **Q1**: < 75% of CP (Recovery)
-                - **Q2**: 75-90% of CP (Endurance)
-                - **Q3**: 90-105% of CP (Tempo/Threshold)
-                - **Q4**: > 105% of CP (VO2max/Anaerobic)
+                **Temporal Quartiles (as per academic methodology):**
+                - **Q1**: First 25% of ride time
+                - **Q2**: 25-50% of ride time  
+                - **Q3**: 50-75% of ride time
+                - **Q4**: Final 25% of ride time
                 
                 *rHRI (Relative Heart Rate Increase) measures cardiac strain relative to power output.*
                 """)
