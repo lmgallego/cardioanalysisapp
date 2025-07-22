@@ -122,7 +122,7 @@ def main():
             with tabs[0]:
                 st.header("Ride Overview")
                 overview_fig = create_overview_plot(df)
-                st.pyplot(overview_fig)
+                st.plotly_chart(overview_fig, use_container_width=True)
                 
                 col1, col2 = st.columns(2)
                 with col1:
@@ -145,7 +145,7 @@ def main():
                 """)
                 
                 cp_fig = create_cp_plot(cp_results)
-                st.pyplot(cp_fig)
+                st.plotly_chart(cp_fig, use_container_width=True)
                 
                 # Max power table
                 st.subheader("Maximum Average Power")
@@ -170,7 +170,7 @@ def main():
                 """)
                 
                 quartile_fig = create_quartile_plots(df_15min)
-                st.pyplot(quartile_fig)
+                st.plotly_chart(quartile_fig, use_container_width=True)
                 
                 # Quartile summary statistics
                 st.subheader("Quartile Summary Statistics")
@@ -207,7 +207,7 @@ def main():
                 
                 # Time series plot
                 time_series_fig = create_time_series_plot(df, df_15min, cp)
-                st.pyplot(time_series_fig)
+                st.plotly_chart(time_series_fig, use_container_width=True)
                 
                 # Interval table
                 st.subheader("Interval Summary")
